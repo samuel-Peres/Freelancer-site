@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conexão Freelancer</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Conexão Freelancer</h1>
+      <nav class="home">
+        <ul>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#freelancers">Freelancers</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="http://127.0.0.1:5500/Login/Login.html"><button>Login</button></a>
+      
+    </div>
+  </header>
+
+  <main>
+    <section id="categorias" class="section">
+      <div class="container">
+        <h2>Categorias</h2>
+        <div class="categories-grid">
+          <div class="category">Design Gráfico</div>
+          <div class="category">Programação</div>
+          <div class="category">Marketing</div>
+          <div class="category">Serviços Domésticos</div>
+          <div class="category">Garçom</div>
+          <div class="category">Escrita e Edição</div>
+          <div class="category">Outros</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="freelancers" class="section">
+      <div class="container">
+        <h2>Freelancers em Destaque</h2>
+        <div class="freelancers-grid">
+          <!-- Freelancer cards -->
+          <div class="freelancer-card">
+            <h3>João Silva</h3>
+            <p>Designer Gráfico</p>
+            <button>Ver Perfil</button>
+          </div>
+          <div class="freelancer-card">
+            <h3>Maria Souza</h3>
+            <p>Programadora</p>
+            <button>Ver Perfil</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clientes" class="section">
+      <div class="container">
+        <h2>Para Clientes</h2>
+        <p>Encontre os melhores freelancers para suas necessidades.</p>
+        <button>Publicar Projeto</button>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="contact-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Freelancers da Cidade. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="/src/js/Script.js"></script>
+</body>
+</html>
